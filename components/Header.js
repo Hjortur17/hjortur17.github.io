@@ -1,5 +1,4 @@
 import React from 'react'
-import Css from 'style.css'
 
 var Header = React.createClass({
   render: function() {
