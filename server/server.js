@@ -70,5 +70,5 @@ var port = 3000;
 
 app.listen(port, function(error){
   if(error) throw error;
-  console.log("Express server listening on port", port);
+  console.log("Your website is on localhost:",port);
 });

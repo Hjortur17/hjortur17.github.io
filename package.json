@@ -1,13 +1,13 @@
 {
-  "name": "test",
+  "name": "bakingSoda",
   "version": "1.0.0",
-  "description": "",
+  "description": "Þetta er lokaverkefnið mitt.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "serve": "nodemon server/server.js --ignore components",
     "stop": "pkill --signal SIGINT test"
   },
-  "author": "",
+  "author": "Hjörtur Freyr Lárusson",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.15.2",
@@ -16,7 +16,7 @@
     "jquery": "^3.1.1",
     "path": "^0.12.7",
     "react": "^15.3.1",
-    "react-bootstrap": "^0.30.5",
+    "react-bootstrap": "^0.30.6",
     "react-dom": "^15.3.1",
     "remarkable": "^1.7.1"
   },

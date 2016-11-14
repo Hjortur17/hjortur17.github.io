@@ -1,11 +1,10 @@
 import React from 'react'
+import Css from 'style.css'
 
 var Header = React.createClass({
   render: function() {
     return (
-      <div className="hdrStyle">
-        <h2>Þetta er headerinn</h2>
-      </div>
+      <h1>Hérna er Header</h1>
     );
   }
 });
