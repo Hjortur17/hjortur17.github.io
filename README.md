@@ -20,6 +20,8 @@ React-Bootstrap
 
 Er að nota grunn að verkefni sem við höfum verið að nota í tímum (með hmre, webpack o.sfrv)
 
+Footer sem segir hvað ég heiti og nafnið á áfanganum og linkar á Github account-inn minn
+
 ----
 
 # Á eftir að bættast við verkefnið
@@ -27,8 +29,6 @@ Er að nota grunn að verkefni sem við höfum verið að nota í tímum (með h
 API
 
 Header sem er bootstrap-navbar og sýnir nafn vefsíðu og linka á amk tvær undirsíður
-
-Footer sem segir hvað ég heiti og nafnið á áfanganum og linkar á Github account-inn minn
 
 User interaction - notandi þarf að geta haft áhrif á útlit og/eða virkni síðunnar
 
