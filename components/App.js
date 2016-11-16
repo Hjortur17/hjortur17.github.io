@@ -6,8 +6,12 @@ import Footer from './Footer'
 
 var App = React.createClass({
   render: function(){
+    var bodyStyle = {
+      margin: '0px'
+    }
+
     return (
-    	<div>
+    	<div style={bodyStyle}>
 	    	<Header />
         <Posts />
 	    	<Footer />
