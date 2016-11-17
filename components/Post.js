@@ -24,10 +24,9 @@ var Posts = React.createClass({
 		return (
 			<section>
 				<Col lg={12}>
-					<img style={image} src="img/recentBlog/nissanGTR.jpg" />
-					<img style={blogImage} src="img/recentBlog/nissanGTR.jpg" />
-					<img style={blogImage} src="img/recentBlog/nissanGTR.jpg" />
-					<img style={blogImage} src="img/recentBlog/nissanGTR.jpg" />
+					<img style={blogImage} src="components/img/recentBlog/nissanGTR.jpg" />
+					<img style={blogImage} src="components/img/recentBlog/nissanGTR.jpg" />
+					<img style={blogImage} src="components/img/recentBlog/nissanGTR.jpg" />
 				</Col>
 			</section>
 		);

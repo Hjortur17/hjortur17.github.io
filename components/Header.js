@@ -1,9 +1,10 @@
 import React from 'react'
 
+
 var Header = React.createClass({
   render: function() {
     var headerStyle = {
-      background: 'url(./img/headerWallpaper.jpg)',
+      backgroundImage: "url('https://s-media-cache-ak0.pinimg.com/originals/01/61/38/0161382629d723e136f4393271289e19.jpg')",
       backgroundSize: 'cover',
       backgroundRepeat: 'no-repeat',
       backgroundPosition: 'center',
