@@ -4,43 +4,37 @@ import { Col } from 'react-bootstrap'
 var Footer = React.createClass({
 	render: function() {
 		var footerStyle = {
-			background: '#3d3d3d',
-			height: '100px',
-			paddingTop: '20px'
-		};
+			backgroundColor: '#3d3d3d',
+			height: 'auto',
+		}
 
-		var rightText = {
-			float: 'right',
-			textTransform: 'uppercase',
+		var nameStyle = {
+			float: 'left',
 			fontWeight: 'bold',
-			fontSize: '16px',
-			color: 'white'
+			textTransform: 'uppercase'
 		}
 
 		var icon = {
-			fontSize: '14px',
-			color: '#aaa'
+			textAlign: 'center'
 		}
 
-		var footerText = {
-			textTransform: 'uppercase',
+		var simpleStyle = {
 			fontWeight: 'bold',
-			fontSize: '16px',
-			color: 'white',
-			float: 'left'
+			fontStyle: 'italic',
+			float: 'right'
 		}
 
 		return (
 			<footer style={footerStyle}>
 				<Col lg={12}>
-					<Col lg={4}>
-						<p style={footerText}>© Hjörtur Freyr Lárusson</p>
+					<Col sm={4}>
+						<p style={nameStyle}>© Hjörtur Freyr Lárusson</p>
 					</Col>
-					<Col lg={4}>
-						<a href="https://github.com/Hjortur17" style={icon}>GitHub</a>
+					<Col sm={4}>
+						<a style={icon} href="https://github.com/Hjortur17">GitHub</a>
 					</Col>
-					<Col lg={4}>
-						<p style={rightText}>VFOR2AN05</p>
+					<Col sm={4}>
+						<p style={simpleStyle}>VFOR2AN05</p>
 					</Col>
 				</Col>
 			</footer>
