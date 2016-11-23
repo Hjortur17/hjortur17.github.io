@@ -1,7 +1,7 @@
 import React from 'react'
 import { Col } from 'react-bootstrap'
 
-var Posts = React.createClass({
+var Post = React.createClass({
 	render: function() {
 		var imageSection = {
 			marginTop: '80px'
@@ -60,4 +60,4 @@ var Posts = React.createClass({
 	}
 });
 
-export default Posts;
+export default Post;

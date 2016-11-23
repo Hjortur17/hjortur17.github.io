@@ -1,5 +1,6 @@
 import React from 'react'
 import { Navbar, Nav, NavItem } from 'react-bootstrap'
+import { LinkContainer } from 'react-router-bootstrap'
 
 var Header = React.createClass({
   render: function() {
@@ -28,7 +29,9 @@ var Header = React.createClass({
           </Navbar.Header>
           <Nav pullRight>
             <NavItem eventKey={1} href="#">Um Mig</NavItem>
-            <NavItem eventKey={2} href="#">Blog</NavItem>
+            <LinkContainer to={{pathname:'/blog'}}>
+              <NavItem eventKey={2} >Blog</NavItem>
+            </LinkContainer>
           </Nav>
         </Navbar>
       </header>

@@ -1,8 +1,5 @@
 import React from 'react'
 import { render } from 'react-dom'
-import Header from './Header'
-import Posts from './Post'
-import Footer from './Footer'
 
 var App = React.createClass({
   render: function(){
@@ -12,9 +9,7 @@ var App = React.createClass({
 
     return (
     	<div style={bodyStyle}>
-	    	<Header />
-        <Posts />
-        <Footer />
+        {this.props.children}
     	</div>
     	);
   }
