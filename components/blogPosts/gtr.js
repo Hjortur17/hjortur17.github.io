@@ -3,9 +3,8 @@ import { Col } from 'react-bootstrap'
 
 var nissanGTR = React.createClass({
 	render: function() {
-
 		return (
-			<h1>Halló</h1>
+			<h1>Halló Heimur</h1>
 		);
 	}
 });

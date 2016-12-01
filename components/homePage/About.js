@@ -1,9 +1,9 @@
 import React from 'react'
 import { Col } from 'react-bootstrap'
 
-var WhyUs = React.createClass({
+var AboutUs = React.createClass({
 	render: function() {
-		var WhyUsSection = {
+		var AboutUsSection = {
 			paddingTop: '80px'
 		}
 
@@ -18,8 +18,8 @@ var WhyUs = React.createClass({
 
 		var headerKicker = {
 			textAlign: 'center',
-			textTransform: 'uppercase',
-			color: '#333'
+			color: '#F76663',
+			textTransform: 'uppercase'
 		}
 
 		var aboutCol = {
@@ -29,19 +29,15 @@ var WhyUs = React.createClass({
 		}
 
 		return (
-			<section style={WhyUsSection}>
+			<section style={AboutUsSection}>
 					<Col lg={12}>
-						<h1 className="colorInteraction" style={sectionHeader}>Why choose us ?</h1>
-						<Col lg={4}>
-							<h2 style={headerKicker}>Why Us</h2>
-							<p style={aboutCol}>We are trying to make this most poupular blog site, this site should be easy to use and user-freindly. Here can you comment and share with your freinds and you can also interact, you can choose color and more.</p>
-						</Col>
-						<Col lg={4}>
-							<h2 style={headerKicker}>Comment &amp; Share</h2>
+						<h1 className="colorInteraction" style={sectionHeader}>About us</h1>
+						<Col lg={6}>
+							<h2 className="colorInteraction" style={headerKicker}>Comment &amp; Share</h2>
 							<p style={aboutCol}>Our comment system allow you (the user) to comment on all blog post and tell other user how to like that post</p>
 						</Col>
-						<Col lg={4}>
-							<h2 style={headerKicker}>User interaction</h2>
+						<Col lg={6}>
+							<h2 className="colorInteraction" style={headerKicker}>User interaction</h2>
 							<p style={aboutCol}>We give you some controll of the site but not all. Example you can change the color of the headers if like some other color than red.</p>
 						</Col>
 					</Col>
@@ -50,4 +46,4 @@ var WhyUs = React.createClass({
 	}
 });
 
-export default WhyUs;
+export default AboutUs;

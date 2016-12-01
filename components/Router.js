@@ -2,7 +2,7 @@ import React from 'react'
 import { Router, Route, Redirect, hashHistory } from 'react-router'
 import App from './App'
 import Home from './Home'
-import About from './About'
+import About from './AboutMe'
 import Blog from './Blog'
 
 var Routerr = React.createClass({

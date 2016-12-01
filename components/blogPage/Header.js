@@ -13,11 +13,11 @@ var Header = React.createClass({
   render: function() {
     var headerStyle = {
       overflow: 'hidden',
-      backgroundImage: "url('https://s-media-cache-ak0.pinimg.com/originals/01/61/38/0161382629d723e136f4393271289e19.jpg')",
+      backgroundImage: "url('http://cdn.wallpapersafari.com/1/34/GKV0bz.jpg')",
       backgroundSize: 'cover',
       backgroundRepeat: 'no-repeat',
       backgroundPosition: 'center',
-      height: '100vh'
+      height: '82vh'
     }
 
     var headerText = {
@@ -40,17 +40,20 @@ var Header = React.createClass({
         <Navbar>
           <Navbar.Header style={navStyle}>
             <Navbar.Brand>
-              <a href="#">Hjörtur Freyr | Lokaverkefni</a>
+              <a href="#">Lokaverkefni | Blog</a>
             </Navbar.Brand>
           </Navbar.Header>
           <Nav pullRight style={navStyle}>
+            <LinkContainer to={{pathname:'/home'}}>
+              <NavItem eventKey={1}>Home</NavItem>
+            </LinkContainer>
             <LinkContainer to={{pathname:'/about'}}>
-              <NavItem eventKey={1}>About Me</NavItem>
+              <NavItem eventKey={2}>About Me</NavItem>
             </LinkContainer>
             <LinkContainer to={{pathname:'/blog'}}>
-              <NavItem eventKey={2}>Blog</NavItem>
+              <NavItem eventKey={3}>Blog</NavItem>
             </LinkContainer>
-            <NavItem eventKey={3}><Button id="buttonInteraction" style={buttonStyle}>Change Color</Button></NavItem>
+            <NavItem eventKey={4}><Button id="buttonInteraction" style={buttonStyle}>Change Color</Button></NavItem>
           </Nav>
         </Navbar>
       </header>

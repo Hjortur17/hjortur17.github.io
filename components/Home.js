@@ -1,9 +1,8 @@
 import React from 'react'
-import { Navbar, Nav, NavItem } from 'react-bootstrap'
-import { LinkContainer } from 'react-router-bootstrap'
 import Header from './homePage/Header'
 import Post from './homePage/Post'
-import WhyUs from './homePage/Why'
+import AboutUs from './homePage/About'
+import Footer from './homePage/Footer'
 
 var Home = React.createClass({
   render: function() {
@@ -11,7 +10,8 @@ var Home = React.createClass({
       <div>
         <Header />
         <Post />
-        <WhyUs />
+        <AboutUs />
+        <Footer />
       </div>
     );
   }
