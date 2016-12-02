@@ -12,7 +12,7 @@ var Breadcrumbs = React.createClass({
           </Breadcrumb.Item>
         </LinkContainer>
         <Breadcrumb.Item active>
-          About Me
+          Blog
         </Breadcrumb.Item>
       </Breadcrumb>
     );
