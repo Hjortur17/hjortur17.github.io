@@ -53,12 +53,6 @@ var BlogSection = React.createClass({
               <a><h3 className="colorInteraction" style={imageKicker}>Tesla Model S</h3></a>
             </LinkContainer>
           </Col>
-          <Col md={3} style={ColStyle}>
-            <img style={blogImage} src="http://st.motortrend.com/uploads/sites/10/2015/09/2016-Porsche-Cayenne-Turbo-S-rear-three-quarter-motion-2.jpg" />
-            <LinkContainer to={{pathname:'/Blog/Posts/PorscheCayenne'}}>
-              <a><h3 className="colorInteraction" style={imageKicker}>Porsche Cayenne</h3></a>
-            </LinkContainer>
-          </Col>
 
           <Col md={3} style={ColStyle}>
             <img style={blogImage} src="http://mercedes-amg-gt.mercedes-benz.com/en_COM/assets/img/content/highlights/dynamics/highlights_dynamics_03/dynamic_mercedes_amg_gt_3.jpg" />
@@ -67,21 +61,9 @@ var BlogSection = React.createClass({
             </LinkContainer>
           </Col>
           <Col md={3} style={ColStyle}>
-            <img style={blogImage} src="http://st.automobilemag.com/uploads/sites/11/2016/08/2016-Audi-RS7-Performance-rear-three-quarter-01.jpg" />
-            <LinkContainer to={{pathname:'/Blog/Posts/AudiRS7'}}>
-              <a><h3 className="colorInteraction" style={imageKicker}>Audi RS 7</h3></a>
-            </LinkContainer>
-          </Col>
-          <Col md={3} style={ColStyle}>
             <img style={blogImage} src="http://o.aolcdn.com/dims-global/dims3/GLOB/legacy_thumbnail/750x422/quality/95/http://www.blogcdn.com/slideshows/images/slides/243/262/2/S2432622/slug/l/01-2014-ferrari-f12-berlinetta-review-1.jpg" />
             <LinkContainer to={{pathname:'/Blog/Posts/FerrariF12'}}>
               <a><h3 className="colorInteraction" style={imageKicker}>Ferrari F12</h3></a>
-            </LinkContainer>
-          </Col>
-          <Col md={3} style={ColStyle}>
-            <img style={blogImage} src="http://f10.m5post.com/forums/attachment.php?attachmentid=665660&d=1332776363.jpg" />
-            <LinkContainer to={{pathname:'/Blog/Posts/BMWF10'}}>
-              <a><h3 className="colorInteraction" style={imageKicker}>BMW F10</h3></a>
             </LinkContainer>
           </Col>
         </Col>

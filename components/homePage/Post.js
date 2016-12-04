@@ -1,5 +1,6 @@
 import React from 'react'
 import { Col } from 'react-bootstrap'
+import { LinkContainer } from 'react-router-bootstrap'
 
 var Post = React.createClass({
 	render: function() {
@@ -51,9 +52,11 @@ var Post = React.createClass({
 							<a href=""><h3 className="colorInteraction" style={imageKicker}>Tesla Model S</h3></a>
 						</Col>
 						<Col md={3} style={ColStyle}>
-							<a href=""><img style={blogImage} src="http://st.motortrend.com/uploads/sites/10/2015/09/2016-Porsche-Cayenne-Turbo-S-rear-three-quarter-motion-2.jpg" /></a>
-							<a href=""><h3 className="colorInteraction" style={imageKicker}>Porsche Cayenne</h3></a>
-						</Col>
+	            <img style={blogImage} src="http://mercedes-amg-gt.mercedes-benz.com/en_COM/assets/img/content/highlights/dynamics/highlights_dynamics_03/dynamic_mercedes_amg_gt_3.jpg" />
+	            <LinkContainer to={{pathname:'/Blog/Posts/BenzAMGGT'}}>
+	              <a><h3 className="colorInteraction" style={imageKicker}>Benz AMG GT</h3></a>
+	            </LinkContainer>
+	          </Col>
 					</Col>
 			</section>
 		);

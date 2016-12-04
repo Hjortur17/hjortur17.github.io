@@ -1,10 +1,18 @@
 import React from 'react'
-import { Col } from 'react-bootstrap'
+import Header from '../blogPosts/Tesla/Header'
+import Breadcrumbs from '../blogPosts/Tesla/Breadcrumbs'
+import Section from '../blogPosts/Tesla/Section'
+import Footer from '../blogPosts/Tesla/Footer'
 
 var Tesla = React.createClass({
 	render: function() {
 		return (
-			<h1>Halló Tesla</h1>
+			<div>
+        <Header />
+        <Breadcrumbs />
+        <Section />
+				<Footer />
+      </div>
 		);
 	}
 });
