@@ -31,7 +31,7 @@ var AboutUs = React.createClass({
 		return (
 			<section style={AboutUsSection}>
 					<Col lg={12}>
-						<h1 className="colorInteraction" style={sectionHeader}>About us</h1>
+						<h1 className="colorInteraction" style={sectionHeader}>Fun facts</h1>
 						<Col lg={6}>
 							<h2 className="colorInteraction" style={headerKicker}>Comment &amp; Share</h2>
 							<p style={aboutCol}>Our comment system allow you (the user) to comment on all blog post and tell other user how to like that post</p>

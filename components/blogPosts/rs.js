@@ -1,12 +1,12 @@
 import React from 'react'
 import { Col } from 'react-bootstrap'
 
-var NissanGTR = React.createClass({
+var AudiRS7 = React.createClass({
 	render: function() {
 		return (
-			<h1>Halló Heimur</h1>
+			<h1>Halló Audi</h1>
 		);
 	}
 });
 
-export default NissanGTR;
+export default AudiRS7;
